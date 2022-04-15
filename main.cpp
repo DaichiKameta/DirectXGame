@@ -50,6 +50,7 @@ int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int) {
 	// 軸方向表示初期化
 	axisIndicator = AxisIndicator::GetInstance();
 	axisIndicator->Initialize();
+
 #pragma endregion
 
 	// ゲームシーンの初期化
