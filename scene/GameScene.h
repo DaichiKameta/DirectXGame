@@ -20,11 +20,18 @@ class GameScene {
 	/// <summary>
 	/// コンストクラタ
 	/// </summary>
-	WorldTransform worldTransform_;
+	
+	//ワールドトランスフォーム
+	WorldTransform worldTransform_[100];
+
 	ViewProjection viewProjection_;
+
 	GameScene();
 
 	/// <summary>
+	//カメラ上方向の角度
+	float viewAngle = 0.0f;
+
 	/// デストラクタ
 	/// </summary>
 	~GameScene();
